@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() {
   runApp(
@@ -387,10 +387,9 @@ class BasicBusinessCardTwo extends StatelessWidget {
   // ToastMessage
   void showMyToastMessage(String message) => Fluttertoast.showToast(
         msg: message,
-        backgroundColor: Colors.white,
-        textColor: Colors.black54,
-        fontAsset: 'Playwrite',
-        fontSize: 16,
+        fontSize: 21,
+        backgroundColor: Colors.yellow[400],
+        textColor: Colors.black,
         gravity: ToastGravity.CENTER,
         timeInSecForIosWeb: 1,
         toastLength: Toast.LENGTH_LONG,
