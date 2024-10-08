@@ -1,6 +1,6 @@
 name: basic_business_card_2
 description: "This Is A Simple Business Card With Basic And Important Widgets."
-publish_to: "none" # Remove this line if you wish to publish to pub.dev
+publish_to: "none"
 version: 1.0.0+1
 homepage: https://github.com/KASRA10/basic_business_card_2.git
 issue_tracker: https://github.com/KASRA10/basic_business_card_2.git
@@ -22,7 +22,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true

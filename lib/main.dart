@@ -83,13 +83,45 @@ class BasicBusinessCardTwo extends StatelessWidget {
         ], // End Of Actions[]
       ),
       body: const SafeArea(
-        child: CircleAvatar(
-          backgroundColor: Colors.white,
-          backgroundImage: AssetImage(
-            'lib/images/kasraK10.png',
-          ),
-          maxRadius: 50.0,
-          minRadius: 50.0,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            CircleAvatar(
+              backgroundColor: Colors.white,
+              backgroundImage: AssetImage(
+                'lib/images/KasraK10.png',
+              ),
+              radius: 70.0,
+            ),
+            Text(
+              'KasraK10',
+              style: TextStyle(
+                color: Colors.white,
+                fontFamily: 'Playwrite',
+                fontSize: 30,
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            Text(
+              'Flutter Developer',
+              style: TextStyle(
+                color: Colors.white,
+                fontFamily: 'Playwrite',
+                fontSize: 12,
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(
+              child: Divider(
+                color: Colors.white54,
+                endIndent: 150,
+                indent: 150,
+              ),
+            ),
+          ],
         ),
       ),
     );
