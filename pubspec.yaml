@@ -15,6 +15,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.7.0
+  fluttertoast: ^8.2.8
 
 dev_dependencies:
   flutter_test:
@@ -25,9 +27,11 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  assets:
+    - lib/images/
+
+  fonts:
+    - family: Playwrite
+      fonts:
+        - asset: lib/fonts/Playwrite.ttf
+          style: normal
