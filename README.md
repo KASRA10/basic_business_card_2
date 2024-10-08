@@ -17,6 +17,7 @@ Visual Studio Code (VS Code) is a powerful, lightweight source code editor devel
 A business card is a small card that contains essential information about a person or company, typically used in professional contexts to facilitate networking and communication.
 
 # Preview
+![BasicCArdV2KasraK10](https://github.com/user-attachments/assets/62e87741-0b55-4084-9b84-f36dcb3ce461)
 
 # Contribution
 Since it is my training code and actually is it something like my portfolio, please do  not use all my codes and UI, and There is no way to contribute to this repository.
