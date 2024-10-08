@@ -21,10 +21,9 @@ class BasicBusinessCardTwo extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.yellow[400],
         centerTitle: true,
         shadowColor: Colors.white,
-        elevation: 6,
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
             bottomLeft: Radius.circular(
@@ -55,7 +54,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
           'Business Card',
           style: TextStyle(
             fontFamily: 'Playwrite',
-            color: Colors.black54,
+            color: Colors.black,
             fontSize: 21,
             fontWeight: FontWeight.bold,
             fontStyle: FontStyle.italic,
@@ -72,7 +71,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
               ),
               icon: const Icon(
                 FontAwesomeIcons.alignRight,
-                color: Colors.black54,
+                color: Colors.black,
                 semanticLabel: 'Exit-Back Button',
                 size: 24,
               ),
@@ -94,10 +93,10 @@ class BasicBusinessCardTwo extends StatelessWidget {
               ),
               radius: 70.0,
             ),
-            const Text(
+            Text(
               'KasraK10',
               style: TextStyle(
-                color: Colors.white,
+                color: Colors.yellow[400],
                 fontFamily: 'Playwrite',
                 fontSize: 30,
                 fontStyle: FontStyle.italic,
@@ -108,10 +107,10 @@ class BasicBusinessCardTwo extends StatelessWidget {
               padding: const EdgeInsets.symmetric(
                 vertical: 10.5,
               ),
-              child: const Text(
+              child: Text(
                 'Flutter Developer',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.yellow[400],
                   fontFamily: 'Playwrite',
                   fontSize: 12,
                   fontWeight: FontWeight.bold,
@@ -119,9 +118,9 @@ class BasicBusinessCardTwo extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(
+            SizedBox(
               child: Divider(
-                color: Colors.white54,
+                color: Colors.yellow[400],
                 endIndent: 150,
                 indent: 150,
               ),
@@ -133,7 +132,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
               ),
               child: Card(
                 color: Colors.white,
-                shadowColor: Colors.white54,
+                shadowColor: Colors.white24,
                 elevation: 4,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(
@@ -156,6 +155,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       fontStyle: FontStyle.italic,
                       fontSize: 16,
+                      color: Colors.black,
                     ),
                   ),
                   enableFeedback: true,
@@ -168,8 +168,13 @@ class BasicBusinessCardTwo extends StatelessWidget {
                 vertical: 5.0,
               ),
               child: Card(
-                color: Colors.white,
-                shadowColor: Colors.white54,
+                color: Color.fromRGBO(
+                  10,
+                  102,
+                  194,
+                  1,
+                ),
+                shadowColor: Colors.white24,
                 elevation: 4,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(
@@ -181,7 +186,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     FontAwesomeIcons.linkedinIn,
-                    color: Colors.black,
+                    color: Colors.white,
                     semanticLabel: 'LinkedIn Official Logo',
                   ),
                   titleAlignment: ListTileTitleAlignment.center,
@@ -192,6 +197,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       fontStyle: FontStyle.italic,
                       fontSize: 16,
+                      color: Colors.white,
                     ),
                   ),
                   enableFeedback: true,
@@ -204,8 +210,13 @@ class BasicBusinessCardTwo extends StatelessWidget {
                 vertical: 5.0,
               ),
               child: Card(
-                color: Colors.white,
-                shadowColor: Colors.white54,
+                color: Color.fromRGBO(
+                  193,
+                  85,
+                  139,
+                  1,
+                ),
+                shadowColor: Colors.white24,
                 elevation: 4,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(
@@ -217,7 +228,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     FontAwesomeIcons.instagram,
-                    color: Colors.black,
+                    color: Colors.white,
                     semanticLabel: 'Instagram Official Logo',
                   ),
                   titleAlignment: ListTileTitleAlignment.center,
@@ -228,6 +239,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       fontStyle: FontStyle.italic,
                       fontSize: 16,
+                      color: Colors.white,
                     ),
                   ),
                   enableFeedback: true,
@@ -240,8 +252,10 @@ class BasicBusinessCardTwo extends StatelessWidget {
                 vertical: 5.0,
               ),
               child: Card(
-                color: Colors.white,
-                shadowColor: Colors.white54,
+                color: Color(
+                  0xFF1DA1F2,
+                ),
+                shadowColor: Colors.white24,
                 elevation: 4,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(
@@ -253,7 +267,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     FontAwesomeIcons.xTwitter,
-                    color: Colors.black,
+                    color: Colors.white,
                     semanticLabel: 'X (Twitter) Official Logo',
                   ),
                   titleAlignment: ListTileTitleAlignment.center,
@@ -264,6 +278,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       fontStyle: FontStyle.italic,
                       fontSize: 16,
+                      color: Colors.white,
                     ),
                   ),
                   enableFeedback: true,
@@ -276,8 +291,13 @@ class BasicBusinessCardTwo extends StatelessWidget {
                 vertical: 5.0,
               ),
               child: Card(
-                color: Colors.white,
-                shadowColor: Colors.white54,
+                color: Color.fromRGBO(
+                  66,
+                  103,
+                  187,
+                  1,
+                ),
+                shadowColor: Colors.white24,
                 elevation: 4,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(
@@ -289,7 +309,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     FontAwesomeIcons.facebookF,
-                    color: Colors.black,
+                    color: Colors.white,
                     semanticLabel: 'Facebook Official Logo',
                   ),
                   titleAlignment: ListTileTitleAlignment.center,
@@ -300,6 +320,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       fontStyle: FontStyle.italic,
                       fontSize: 16,
+                      color: Colors.white,
                     ),
                   ),
                   enableFeedback: true,
@@ -312,8 +333,8 @@ class BasicBusinessCardTwo extends StatelessWidget {
                 vertical: 5.0,
               ),
               child: Card(
-                color: Colors.white,
-                shadowColor: Colors.white54,
+                color: Colors.yellow[400],
+                shadowColor: Colors.white24,
                 elevation: 4,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(
@@ -336,6 +357,7 @@ class BasicBusinessCardTwo extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       fontStyle: FontStyle.italic,
                       fontSize: 16,
+                      color: Colors.black,
                     ),
                   ),
                   enableFeedback: true,
@@ -350,11 +372,12 @@ class BasicBusinessCardTwo extends StatelessWidget {
           'Thanks For Support',
         ),
         mini: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.pinkAccent[400],
         elevation: 15,
         tooltip: 'Tapping The Heart Icon As Like The App And Support',
         child: Icon(
           FontAwesomeIcons.heart,
+          color: Colors.white,
           semanticLabel: 'Heart Icon As Like The App And Support',
         ),
       ),
