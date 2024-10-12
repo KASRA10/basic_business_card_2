@@ -7,14 +7,11 @@ art is a general-purpose, object-oriented programming language developed by Goog
 # [![My Skills](https://skillicons.dev/icons?i=flutter)](https://skillicons.dev) What Is Flutter? 
 Flutter is an open-source UI software development kit (SDK) created by Google, designed for building natively compiled applications for multiple platforms from a single codebase. First introduced in 2015 and officially released in May 2017, Flutter allows developers to create applications for iOS, Android, web, desktop (Windows, macOS, Linux), and Google's Fuchsia operating system.
 
-# [![My Skills](https://skillicons.dev/icons?i=androidstudio)](https://skillicons.dev) What Is Android Weather App?
-An Android weather app is a mobile application designed to provide users with real-time weather information and forecasts for various locations. These apps utilize data from meteorological services and APIs to deliver accurate weather updates, helping users plan their daily activities based on current and predicted weather conditions.
+# [![My Skills](https://skillicons.dev/icons?i=androidstudio)](https://skillicons.dev) What Is Business Card?
+A business card is a small card that contains essential information about a person or company, typically used in professional contexts to facilitate networking and communication.
 
 # [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev) What Is VS Code?
 Visual Studio Code (VS Code) is a powerful, lightweight source code editor developed by Microsoft. It is designed to facilitate a smooth coding experience across various platforms, including Windows, macOS, and Linux.
-
-# What Is Business Card?
-A business card is a small card that contains essential information about a person or company, typically used in professional contexts to facilitate networking and communication.
 
 # Preview
 ![BasicCArdV2KasraK10](https://github.com/user-attachments/assets/62e87741-0b55-4084-9b84-f36dcb3ce461)
